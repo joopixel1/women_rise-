@@ -1,0 +1,99 @@
+/* static/css/base.css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(to bottom right,#00bbf0, pink);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+nav{
+	background-color:  #132743;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+.home_body{
+	font-family: 'Acme', serif;
+	font-size: 18px;
+	padding:20px;	
+	height: 100%;
+}
+.shad{
+	background-color:  rgba(120, 120, 120, 0.8);
+	color: black;
+	padding: 20px;
+	border-radius:10px;
+	margin:50px
+	
+}
+footer{
+	background-color: teal;
+	padding:15px;
+	width:100%;  
+	position: fixed;
+	bottom:0;
+}
+.flex-container{
+	display:flex;
+	background-size: cover;
+	border-radius:10px;
+	justify-content: center;
+	flex-wrap: wrap;
+    flex-direction: row;		
+}
+.flex-item{
+	width:400px;
+	height: 500px;
+	margin: 20px 100px 100px 100px;
+	border: 5px solid white;
+	border-radius:10px;
+	text-align: center;
+	line-height:100px;		
+}
+h1 a{
+	font-size: 35px;
+	text-decoration: None;
+	color: white;
+}
+h2{
+	text-shadow: 1px 2px green;
+	font-size: 50px;
+	color: #132743;
+}
+h3 a{
+	font-size: 50px;
+	text-decoration: None;
+	color: #132743;
+	text-shadow: 1px 2px rgba(255, 255, 255, 0.8);
+}
+.hug_right{
+	text-align: right;
+}
+button{
+	color: white;
+	background-color: blue;
+	padding: 15px;
+	font-size: 30px;
+	font-family: 'Acme';
+	border: 1px solid black;
+	border-radius:10px;
+}
+th{
+	padding: 5px;
+	vertical-align: top;
+	letter-spacing: 1.5px;
+	white-space: nowrap;
+}
+td{
+	padding: 5px;
+	vertical-align: top;
+	letter-spacing: 1.5px;
+}
+p{
+	letter-spacing: 1.5px
+}

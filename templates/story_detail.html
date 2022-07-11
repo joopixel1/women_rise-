@@ -1,0 +1,22 @@
+<!-- templates/post_detail.html -->
+{% extends 'base.html' %}
+{% load jt_tags %}
+
+
+{% block content %}
+<div>
+	<h2><center>{{ object.title }}</center></h2>
+	<br>
+	{% rearrange object.body as article_flag %}
+	<table>
+		{% for story in article_flag %}   
+		<tr>
+			<th>{{ story.speaker }}</th>
+			<td>{{ story.speech }}</td>	
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+{% endblock content %}
+
+

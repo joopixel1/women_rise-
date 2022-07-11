@@ -1,0 +1,18 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+{% load jt_tags %}
+{% load staticfiles %}
+
+
+{% block content %}
+<div class="flex-container">
+   {% for story in object_list %}   
+		
+		<div class="flex-item" style="background-color: yellow;">
+			<h3><a href="{% url 'detail' story.pk %}">{{% some_body story.title %}</a></h3>
+		</div>
+		<br>
+	
+	{% endfor %}
+</div>	
+{% endblock content %}
