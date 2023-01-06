@@ -1,1 +1,1 @@
-web: gunicorn monkey.wsgi --log-file -
+web: gunicorn women_rise.wsgi --log-file -

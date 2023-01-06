@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'monkey.urls'
+ROOT_URLCONF = 'women_rise.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'monkey.wsgi.application'
+WSGI_APPLICATION = 'women_rise.wsgi.application'
 
 
 # Database
